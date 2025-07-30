@@ -99,6 +99,9 @@ gcloud compute forwarding-rules create ENDPOINT_NAME \
 - **PSA**: Suitable for accessing Google-managed services like Cloud SQL or Memorystore privately within a VPC.
 - **PSC**: Best for scenarios requiring custom IP addresses, cross-VPC connectivity, or third-party service access (e.g., Snowflake, Confluent).
 
+## One liner
+PSC is a more powerful way to privately connect to Google APIs and services, covering what PGA and PSA do, plus extra capabilities like connecting to third-party services or using custom IPs
+
 ## References
 - [Private Access Options for Services](https://cloud.google.com/vpc/docs/private-access-options)[](https://cloud.google.com/vpc/docs/private-access-options)
 - [Configure Private Google Access](https://cloud.google.com/vpc/docs/configure-private-google-access)[](https://cloud.google.com/vpc/docs/configure-private-google-access)
